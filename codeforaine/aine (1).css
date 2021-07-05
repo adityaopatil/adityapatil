@@ -1,0 +1,142 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    height: 100vw;
+
+}
+
+
+nav {
+	height: 100%; /* 100% Full-height */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0;
+	width: 100px;
+	left: 0;
+    padding: 10px;	
+    background: #fafafa;
+    box-shadow:  0px 0px 30px 10px #dadada;
+}
+
+.img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin: 10px 0;
+}
+.img:hover{
+    opacity: 0.3;
+}
+
+
+header {
+    height: 100px;
+}
+
+section{
+	background: #f4f5f7;
+    height: 100%;
+	padding: 30px 30px 30px 150px;
+}
+
+#arrow {
+	font-weight: bold;
+	font-size: 18px;
+	position: relative;
+	bottom: 2px;
+	color: #808080;
+}
+
+
+.mainblock {
+    margin: 60px 12%;
+}
+
+.input__url {
+	font-size: 12px;
+	color: #5c5c5c;
+	width: 100%;
+    padding: 10px;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #eff0f2;
+}
+
+#or{
+	margin: 25px 0 10px;
+    text-align: center;    
+    font-weight: bold;
+    color: #161616;
+}
+
+.input__file {
+	display: inline-block;
+	background: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #161616;
+	width: 160px;
+	height: 160px;
+}
+
+#sechd{
+    background-color: white;
+    width: 100%;
+}
